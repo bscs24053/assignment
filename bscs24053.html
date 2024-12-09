@@ -4,44 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversation App</title>
-    <link rel="stylesheet" href="bscs24053.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <h1>Conversation App</h1>
-        </header>
 
-        <!-- Main Conversation Section -->
-        <div class="chat-container">
-            <!-- Chat History -->
-            <div class="chat-history">
-                <div class="message user">
-                    <p>Hello! How are you?</p>
-                </div>
-                <div class="message bot">
-                    <p>I'm doing great, thanks for asking! How can I help you today?</p>
-                </div>
-                <div class="message user">
-                    <p>I need help with my project.</p>
-                </div>
-                <div class="message bot">
-                    <p>Of course! What’s your project about?</p>
-                </div>
-            </div>
+    <!-- Header Section -->
+    <header>
+        <h1>Conversation App</h1>
+    </header>
 
-            <!-- Message Input Section -->
-            <div class="message-input">
-                <input type="text" placeholder="Type a message..." aria-label="Message Input" />
-                <button class="send-btn" aria-label="Send Message">Send</button>
-            </div>
-        </div>
+    <!-- Main content area with chat profiles -->
+    <main class="container">
+        <section class="profile-list">
+            <h2>Chats</h2>
+            <ul>
+                <li><a href="chat1.html" class="profile-link">
+                    <img src="https://via.placeholder.com/50" alt="User 1">
+                    <span>User 1</span>
+                </a></li>
+                <li><a href="chat2.html" class="profile-link">
+                    <img src="https://via.placeholder.com/50" alt="User 2">
+                    <span>User 2</span>
+                </a></li>
+                <li><a href="chat3.html" class="profile-link">
+                    <img src="https://via.placeholder.com/50" alt="User 3">
+                    <span>User 3</span>
+                </a></li>
+            </ul>
+        </section>
+    </main>
 
-        <!-- Footer Section -->
-        <footer class="footer">
-            <p>Powered by Conversation App</p>
-        </footer>
-    </div>
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Conversation App. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
